@@ -1,0 +1,19 @@
+{
+  "name": "udemy-nuk",
+  "version": "1.0.0",
+  "description": "LandingPage-DNTNTTL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timcreative/udemy-nuk.git"
+  },
+  "author": "Tan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timcreative/udemy-nuk/issues"
+  },
+  "homepage": "https://github.com/timcreative/udemy-nuk#readme"
+}
