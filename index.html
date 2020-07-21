@@ -36,6 +36,14 @@
       rel="stylesheet"
     />
     <script src="./scroll.js"></script>
+    <link rel="stylesheet" href="slidein.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="slideIn.min.js"></script>
 
     <style>
       body {
@@ -113,16 +121,12 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a
-                class="nav-link h4-seo"
-                onclick="scrollToDichVu()"
+              <a class="nav-link h4-seo" onclick="scrollToDichVu()"
                 ><b>DỊCH VỤ</b></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#danhGia"
-                ><b>ĐÁNH GIÁ</b></a
-              >
+              <a class="nav-link" href="#danhGia"><b>ĐÁNH GIÁ</b></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" onclick="scrollToSanPham()"
@@ -173,7 +177,7 @@
         <div class="section section-basic">
           <div class="text-center mt-5">
             <!--Gioi thieu-->
-            <div id="gioiThieu" style="margin-bottom: 20px;">
+            <div class="js-slidein" id="gioiThieu" style="margin-bottom: 20px;">
               <h1>Giới thiệu</h1>
               <div class="container">
                 <div class="row">
@@ -185,10 +189,7 @@
                     nhật và cải thiện hằng ngày để có thể đem đến trải nghiệm
                     tốt nhất cho khách hàng với giá cả phải chăng.
                   </h4>
-                  <img
-                    class="col-12 col-xl-6"
-                    src="./assests/book.jpg"
-                  />
+                  <img class="col-12 col-xl-6" src="./assests/book.jpg" />
                 </div>
               </div>
             </div>
@@ -196,7 +197,7 @@
             <!--DICH VU-->
             <div
               id="dichVu"
-              class="container-fluid"
+              class="container-fluid js-slidein"
               style="background-color: black; padding: 20px;"
             >
               <h1 style="color: white;">Dịch vụ</h1>
@@ -298,7 +299,7 @@
 
             <!--SAN PHAM MINH HOA-->
 
-            <div id="sanPham" style="margin-top: 20px;">
+            <div class="js-slidein" id="sanPham" style="margin-top: 20px;">
               <h1>SẢN PHẨM MINH HỌA</h1>
 
               <div
@@ -405,14 +406,22 @@
               <h6>Chủ Nhật: <i>8am-12pm</i></h6>
               <h6>Không mở cửa vào các ngày lễ tết</h6>
             </div>
-            <div class="copyright" style="margin-left: 1em ;margin-top: 2em ;font-size: small;">
+            <div
+              class="copyright"
+              style="margin-left: 1em; margin-top: 2em; font-size: small;"
+            >
               &copy;
               <script>
                 document.write(new Date().getFullYear());
               </script>
               , Designed and Coded by
-              <a href="https://www.linkedin.com/in/tanngo1605/" target="_blank" style="text-decoration: underline;"
-                > .<i class="fa fa-linkedin-square" aria-hidden="true"></i> Tan Ngo</a
+              <a
+                href="https://www.linkedin.com/in/tanngo1605/"
+                target="_blank"
+                style="text-decoration: underline;"
+              >
+                .<i class="fa fa-linkedin-square" aria-hidden="true"></i> Tan
+                Ngo</a
               >.
             </div>
           </div>
